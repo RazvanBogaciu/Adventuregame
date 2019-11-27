@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    background-image: url("background.jpg");
+background-size: 2000px 1500px;
+background-position: center;
+background-repeat: no-repeat;
+}
+#image{
+    width: 1200px;
+    height: 600px;
+}
+#description {
+    margin-top: 10px;
+font-size: 24px;
+width : 1170px;
+height: 200;
+background-image: url("background3.png");
+opacity: 20%;
+background-repeat: no-repeat;
+background-size: 1200px 200px;
+color: black;
+font-weight: 900;
+
+
+padding: 30px;
+border-radius: 5px;
+}
+#text {
+    opacity: 100%;
+}
+#title {
+    font-size: 40px;
+    color: whitesmoke;
+}
+#gameContainer{
+    justify-content: center;
+    align-self: center;
+    width : 1200px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url("background2.jpg");
+    background-size: 1300px 1500px;
+
+}
+#button1 {
+    background-color:white;
+    color:black;
+    border:2px solid #000000;
+    padding : 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px; 
+    font-weight: 900;
+}
+
+ #button1:hover {
+    background-color :black;
+    color:rgb(255, 255, 255);
+    border:2px solid #008CBA;
+
+ }
+ #button2 {
+    background-color:white;
+    color:black;
+    border:2px solid #000000;
+    padding : 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px; 
+    font-weight: 900;
+}
+
+ #button2:hover {
+    background-color :black;
+    color:rgb(255, 255, 255);
+    border:2px solid #008CBA;
+    padding : 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px; 
+ }
+ #button3 {
+    background-color:white;
+    color:black;
+    border:2px solid #000000
+}
+
+ #button3:hover {
+    background-color :black;
+    color:rgb(255, 255, 255);
+    border:2px solid #008CBA
+ }

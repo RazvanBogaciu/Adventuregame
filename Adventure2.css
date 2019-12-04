@@ -22,25 +22,22 @@ background-repeat: no-repeat;
     width: 1200px;
     height: 600px;
 }
+
 #description {
     margin-top: 10px;
 font-size: 24px;
 width : 1170px;
-height: 200;
+height: 195;
 background-image: url("background3.png");
-opacity: 20%;
+opacity: 40%;
 background-repeat: no-repeat;
 background-size: 1200px 200px;
 color: black;
 font-weight: 900;
-
-
-padding: 30px;
+padding: 30px 30px 0px 30px;
 border-radius: 5px;
 }
-#text {
-    opacity: 100%;
-}
+
 #title {
     font-size: 40px;
     color: whitesmoke;
@@ -93,21 +90,97 @@ border-radius: 5px;
     background-color :black;
     color:rgb(255, 255, 255);
     border:2px solid #008CBA;
+
+ }
+ #button3 {
+    background-color:white;
+    color:black;
+    border:2px solid #000000;
     padding : 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 12px; 
- }
- #button3 {
-    background-color:white;
-    color:black;
-    border:2px solid #000000
+    font-weight: 900;
 }
 
  #button3:hover {
     background-color :black;
     color:rgb(255, 255, 255);
-    border:2px solid #008CBA
+    border:2px solid #008CBA;
+
+ }
+ #button4 {
+    background-color:white;
+    color:black;
+    border:2px solid #000000;
+    padding : 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px; 
+    font-weight: 900;
+}
+
+ #button4:hover {
+    background-color :black;
+    color:rgb(255, 255, 255);
+    border:2px solid #008CBA;
+
+ }
+ #nameid {
+ height: 40px;
+ color:black;
+ border:2px solid #000000;
+ text-align: center;
+ font-weight: 900;
+ font-size: 25px;
+ width: 200px;
+ }
+ #stats {
+     left: 110px;
+     position: relative;
+ }
+ 
+ #stat1{
+    margin-left: 20px;
+    margin-top: 53px;
+color: white;
+z-index: 1;
+font-size: 20px;
+font-weight: 900;
+opacity: 80%;
+ }
+
+ #stat2{
+margin-left:-6px;
+    margin-top: 83px;
+color: white;
+z-index: 1;
+font-size: 20px;
+font-weight: 900;
+opacity: 80%;
+ }
+ 
+ #stat3{
+    margin-left:-6px;
+    margin-top: 115px;
+color: white;
+z-index: 1;
+font-size: 20px;
+font-weight: 900;
+opacity: 80%;
+ }
+
+ #stat4{
+    margin-left:-6px;
+    margin-top: 145px;
+    position:sticky;
+color: white;
+z-index: 1;
+font-size: 20px;
+font-weight: 900;
+opacity: 80%;
  }
